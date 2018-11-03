@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:card_view="http://schemas.android.com/tools">
+
+    <com.sothree.slidinguppanel.SlidingUpPanelLayout
+        xmlns:sothree="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/sliding_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        android:background="#fff"
+        android:alpha="0.8"
+        sothree:umanoDragView="@+id/dragView"
+        sothree:umanoPanelHeight="0dp"
+        sothree:umanoShadowHeight="2dp"
+        sothree:umanoOverlay="true"
+        >
+        <!-- MAIN CONTENT -->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <com.google.android.gms.maps.MapView
+                android:id="@+id/mapView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:clickable="true"
+                android:focusable="false"
+                android:focusableInTouchMode="true"/>
+        </FrameLayout>
+
+        <!-- SLIDING LAYOUT -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_edge"
+            android:alpha="0.9"
+            android:orientation="vertical"
+            android:clickable="true"
+            android:focusable="false"
+            android:id="@+id/dragView">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/follow"
+                    android:layout_width="50dp"
+                    android:layout_height="10dp"
+                    android:textSize="14sp"
+                    android:gravity="center"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_centerHorizontal="true"/>
+                <RelativeLayout
+                    android:layout_below="@+id/follow"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingTop="0dp"
+                    android:paddingBottom="0dp"
+                    android:layout_margin="10dp">
+                    <ImageView
+                        android:id="@+id/iconMarker"
+                        android:layout_width="130dp"
+                        android:layout_height="100dp"
+                        android:clickable="true"
+                        android:src="@drawable/marker"
+                        android:layout_centerHorizontal="true"/>
+                    <TextView
+                        android:id="@+id/fclistClinicname"
+                        android:layout_below="@+id/iconMarker"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/textColorDefault"
+                        android:layout_marginTop="0dp"
+                        android:gravity="center"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:typeface="sans"
+                        />
+                    <TextView
+                        android:id="@+id/fclistClinicnameSub"
+                        android:layout_below="@+id/fclistClinicname"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/textColorDefault"
+                        android:layout_marginTop="0dp"
+                        android:gravity="center"
+                        android:text="Physcian Practice"
+                        android:textSize="11sp"
+                        android:textStyle="normal"
+                        android:typeface="sans"
+                        />
+                    <TextView
+                        android:id="@+id/fclistClinicaddressTag"
+                        android:layout_below="@+id/fclistClinicnameSub"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/textColorDefault"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="5dp"
+                        android:text="ADDRESS "
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        android:typeface="sans"
+                        android:gravity="center"
+                        />
+                    <TextView
+                        android:id="@+id/fclistClinicaddress"
+                        android:layout_below="@+id/fclistClinicaddressTag"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/textColorDefault"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginLeft="5dp"
+                        android:textSize="12sp"
+                        android:textStyle="normal"
+                        android:typeface="sans"
+                        android:gravity="center"
+                        />
+                    <TextView
+                        android:id="@+id/fclistClinicwebsite"
+                        android:layout_below="@+id/fclistClinicaddress"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/textColorDefault"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="15dp"
+                        android:layout_marginLeft="5dp"
+                        android:text="www.google.com"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:typeface="sans"
+                        android:gravity="center"
+                        />
+
+                    <Button
+                        android:id="@+id/bCallClinic"
+                        android:layout_below="@+id/fclistClinicwebsite"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="Call Clinic"
+                        android:background="@drawable/button_call_clinic"
+                        android:textSize="12sp"
+                        android:textColor="@color/white"
+                        android:layout_marginBottom="10dp"/>
+
+                    <Button
+                        android:id="@+id/bDirectionsClinic"
+                        android:layout_below="@+id/bCallClinic"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="Get Direction"
+                        android:drawablePadding="10dp"
+                        android:background="@drawable/button_get_direct"
+                        android:textSize="12sp"
+                        android:textColor="@color/white"
+                        android:layout_marginBottom="10dp"/>
+
+                    <Button
+                        android:id="@+id/bFindOtherClinic"
+                        android:layout_below="@+id/bDirectionsClinic"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="Find Other Clinic"
+                        android:drawablePadding="10dp"
+                        android:background="@drawable/button_find"
+                        android:textSize="12sp"
+                        android:textColor="@color/white"/>
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <ListView
+                android:id="@+id/listViewClinic"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+            </ListView>
+
+
+        </LinearLayout>
+    </com.sothree.slidinguppanel.SlidingUpPanelLayout>
+    <include layout="@layout/include_progress_overlay"/>
+</RelativeLayout>

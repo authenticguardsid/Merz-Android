@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorWhite">
+    <RelativeLayout
+        android:id="@+id/pmenu1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_marginTop="8dp"
+        android:padding="10dp">
+        <ImageView
+            android:id="@+id/iconHelp"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="5dp"
+            android:clickable="true"
+            android:src="@drawable/a_help" />
+        <TextView
+            android:id="@+id/textValuePoint"
+            android:layout_toRightOf="@+id/iconHelp"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="6dp"
+            android:textColor="@color/textColorDefault"
+            android:text="FAQ"
+            android:textSize="14sp"
+            android:textStyle="normal"
+            android:typeface="normal"
+            />
+        <View
+            android:layout_below="@+id/iconHelp"
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="50dp"
+            android:background="@color/textColorDefault" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/pmenu2"
+        android:layout_below="@+id/pmenu1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="10dp">
+        <ImageView
+            android:id="@+id/iconLanguange"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="5dp"
+            android:clickable="true"
+            android:src="@drawable/a_languange" />
+        <TextView
+            android:layout_toRightOf="@+id/iconLanguange"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="6dp"
+            android:textColor="@color/textColorDefault"
+            android:text="Change Language"
+            android:textSize="14sp"
+            android:textStyle="normal"
+            android:typeface="normal"
+            />
+        <View
+            android:layout_below="@+id/iconLanguange"
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="50dp"
+            android:background="@color/textColorDefault" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/pmenu3"
+        android:layout_below="@+id/pmenu2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="10dp">
+        <ImageView
+            android:id="@+id/iconTerm"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="5dp"
+            android:clickable="true"
+            android:src="@drawable/a_info" />
+        <TextView
+            android:layout_toRightOf="@+id/iconTerm"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="6dp"
+            android:textColor="@color/textColorDefault"
+            android:text="Term of Services"
+            android:textSize="14sp"
+            android:textStyle="normal"
+            android:typeface="normal"
+            />
+        <View
+            android:layout_below="@+id/iconTerm"
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="50dp"
+            android:background="@color/textColorDefault" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/pmenu4"
+        android:layout_below="@+id/pmenu3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="10dp">
+        <ImageView
+            android:id="@+id/iconPrivacy"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="5dp"
+            android:clickable="true"
+            android:src="@drawable/a_privacy" />
+        <TextView
+            android:layout_toRightOf="@+id/iconPrivacy"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="6dp"
+            android:textColor="@color/textColorDefault"
+            android:text="Privacy Policy"
+            android:textSize="14sp"
+            android:textStyle="normal"
+            android:typeface="normal"
+            />
+        <View
+            android:layout_below="@+id/iconPrivacy"
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="50dp"
+            android:background="@color/textColorDefault" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/pmenu5"
+        android:layout_below="@+id/pmenu4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="10dp">
+        <ImageView
+            android:id="@+id/iconStars"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="5dp"
+            android:clickable="true"
+            android:src="@drawable/a_stars" />
+        <TextView
+            android:layout_toRightOf="@+id/iconStars"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="6dp"
+            android:textColor="@color/textColorDefault"
+            android:text="Rate Real Matters ID App"
+            android:textSize="14sp"
+            android:textStyle="normal"
+            android:typeface="normal"
+            />
+        <View
+            android:layout_below="@+id/iconStars"
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="50dp"
+            android:background="@color/textColorDefault" />
+    </RelativeLayout>
+</RelativeLayout>

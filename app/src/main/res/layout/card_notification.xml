@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/card_list_notif"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="0dp"
+        android:paddingBottom="0dp">
+
+        <TextView
+            android:id="@+id/title_notf"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="2dp"
+            android:textColor="@color/cardview_dark_background"
+            android:text="TITLE"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:typeface="sans"
+            />
+        <TextView
+            android:id="@+id/summary_notif"
+            android:layout_below="@+id/title_notf"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="0dp"
+            android:paddingBottom="10dp"
+            android:textColor="@color/cardview_dark_background"
+            android:text="TITLE"
+            android:textSize="13sp"
+            android:textStyle="normal"
+            android:typeface="sans"
+            />
+        <TextView
+            android:id="@+id/date_notif"
+            android:layout_below="@+id/summary_notif"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="0dp"
+            android:paddingBottom="10dp"
+            android:textColor="@color/cardview_dark_background"
+            android:text="Tanggal"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            android:typeface="sans"
+            />
+        <ImageView
+            android:id="@+id/image_notif"
+            android:layout_toRightOf="@+id/title_notf"
+            android:layout_alignParentRight="true"
+            android:gravity="right"
+            android:layout_marginRight="10dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="20dp"/>
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

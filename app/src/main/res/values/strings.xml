@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">Real Matters ID</string>
+    <string name="facebook_app_id" translatable="false">305228246725429</string>
+    <string name="fb_login_protocol_scheme">fb305228246725429</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+    <string name="slide_1_title">AUTHENCITY</string>
+    <string name="slide_1_desc">Be confident and worry free. Ensure the authenticity of each treatment by simply scanning the certificate you have received from the clinic.</string>
+    <string name="slide_2_title">CLINIC LOCATOR</string>
+    <string name="slide_2_desc">Find a certified and official clinic near you. You will be in the right place. Just get ready for your treatment.</string>
+    <string name="slide_3_title">PROMO</string>
+    <string name="slide_3_desc">Get the latest information and promotions about our products. You will never miss it again.  Get started.</string>
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="email">Email Id</string>
+    <string name="passowrd">Password</string>
+    <string name="login">LOGIN</string>
+    <string name="show_pwd">Show Password</string>
+    <string name="hide_pwd">Hide Password</string>
+    <string name="forgot">Forgot password?</string>
+    <string name="closebutton">Close Button for Activity</string>
+    <string name="newUser">Not a Member yet? Sign Up here.</string>
+    <string name="fullName">Full Name</string>
+    <string name="mobileNumber">Mobile Number</string>
+    <string name="location">Location</string>
+    <string name="confirmPassword">Confirm Password</string>
+    <string name="terms_conditions">By clicking SignUp you agree all the Terms and Conditions.</string>
+    <string name="signUp">SIGN UP</string>
+    <string name="already_user">Already have Account? Login here.</string>
+    <string name="registered_emailid">Please enter your Registered Email Id below:</string>
+    <string name="submit">SUBMIT</string>
+    <string name="back">BACK</string>
+
+    <string name="title_activity_scan_qr_code">Scan</string>
+    <string name="qc_code_close">Close</string>
+    <string name="qr_code_select_picture">Picture</string>
+    <string name="qr_code_open_flash_light">Open flash light</string>
+    <string name="qr_code_close_flash_light">Close Flash Light</string>
+    <string name="qr_code_auto_scan_notification">Position QR Code</string>
+    <string name="qr_code_notification">Notification</string>
+    <string name="qr_code_camera_not_open">Could not open your camera</string>
+    <string name="qr_code_positive_button_know">OK</string>
+    <string name="qr_code_positive_button_confirm">Confirm</string>
+    <string name="qr_code_could_not_read_qr_code_from_picture">Could not read your image.Try another image~</string>
+    <string name="qr_code_could_not_read_qr_code_from_scanner">Sorry, could not open scan content</string>
+    <string name="qr_code_camera_not_found">Could not detect camera</string>
+
+    <string name="slide_up_title">SlideUp</string>
+    <string name="slide_down_title">SlideDown</string>
+    <string name="slide_start_title">SlideStart</string>
+    <string name="slide_end_title">SlideEnd</string>
+    <string name="slide_up_sample">SlideUp sample</string>
+    <string name="slide_down_sample">SlideDown sample</string>
+    <string name="slide_start_sample">SlideStart sample</string>
+    <string name="slide_end_sample">SlideEnd sample</string>
+
+    <string name="msg_token_fmt" translatable="false">InstanceID Token: %s</string>
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <string name="default_notification_channel_name" translatable="true">News</string>
+    <string name="msg_subscribe_failed">Failed to subscribe to news topic</string>
+    <string name="fcm_message">FCM Message</string>
+
+</resources>

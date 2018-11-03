@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="0dp"
+    android:paddingBottom="0dp"
+    android:layout_margin="10dp">
+    <ImageView
+        android:id="@+id/iconMarker"
+        android:layout_width="150dp"
+        android:layout_height="122dp"
+        android:clickable="true"
+        android:src="@drawable/marker"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:id="@+id/fclistClinicname"
+        android:layout_below="@+id/iconMarker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/textColorDefault"
+        android:layout_marginTop="0dp"
+        android:gravity="center"
+        android:text="Jakarta Aesthetic Clinic"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:typeface="sans"
+        />
+    <TextView
+        android:id="@+id/fclistClinicnameSub"
+        android:layout_below="@+id/fclistClinicname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/textColorDefault"
+        android:layout_marginTop="0dp"
+        android:gravity="center"
+        android:text="Physcian Practice"
+        android:textSize="11sp"
+        android:textStyle="normal"
+        android:typeface="sans"
+        />
+    <TextView
+        android:id="@+id/fclistClinicRadius"
+        android:layout_below="@+id/fclistClinicnameSub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/textColorDefault"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="It will take 28 KM ( 30 Minute)"
+        android:textSize="18sp"
+        android:textStyle="normal"
+        android:typeface="sans"
+        />
+    <TextView
+        android:id="@+id/fclistClinicaddressTag"
+        android:layout_below="@+id/fclistClinicRadius"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:text="ADDRESS "
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:typeface="sans"
+        android:gravity="center"
+        />
+    <TextView
+        android:id="@+id/fclistClinicaddress"
+        android:layout_below="@+id/fclistClinicaddressTag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/textColorDefault"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="5dp"
+        android:text="Street. Gunawarman No. 11, Kebayoran Baru, Jakarta Selatan, 12110rnrn - Jakarta selatan"
+        android:textSize="12sp"
+        android:textStyle="normal"
+        android:typeface="sans"
+        android:gravity="center"
+        />
+    <TextView
+        android:id="@+id/fclistClinicwebsite"
+        android:layout_below="@+id/fclistClinicaddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/textColorDefault"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="5dp"
+        android:text="www.google.com"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:typeface="sans"
+        android:gravity="center"
+        />
+
+    <Button
+        android:id="@+id/bCallClinic"
+        android:layout_below="@+id/fclistClinicwebsite"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Call Clinic"
+        android:background="@drawable/button_call_clinic"
+        android:textSize="12sp"
+        android:textColor="@color/white"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/bDirectionsClinic"
+        android:layout_below="@+id/bCallClinic"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Get Direction"
+        android:drawablePadding="10dp"
+        android:background="@drawable/button_get_direct"
+        android:textSize="12sp"
+        android:textColor="@color/white"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/bFindOtherClinic"
+        android:layout_below="@+id/bDirectionsClinic"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Find Other Clinic"
+        android:drawablePadding="10dp"
+        android:background="@drawable/button_find"
+        android:textSize="12sp"
+        android:textColor="@color/white"/>
+</RelativeLayout>

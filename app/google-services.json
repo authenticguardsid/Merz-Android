@@ -1,0 +1,79 @@
+{
+  "project_info": {
+    "project_number": "844404022209",
+    "firebase_url": "https://real-matters-1536036763830.firebaseio.com",
+    "project_id": "real-matters-1536036763830",
+    "storage_bucket": "real-matters-1536036763830.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:844404022209:android:e2db5935d9e82dfb",
+        "android_client_info": {
+          "package_name": "com.realmattersid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "844404022209-3pnlse8bm9eplmrckklbo5ffrv04c1nv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.realmattersid",
+            "certificate_hash": "42bd7b14519ea3887a0e69fadf310702d738a0cb"
+          }
+        },
+        {
+          "client_id": "844404022209-3ch6lb2tlovaq553vfcfrhsu0cim636u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.realmattersid",
+            "certificate_hash": "84a3dc02f7f13fc75f017d6868027261b99c281e"
+          }
+        },
+        {
+          "client_id": "844404022209-5gcu6qlqceo028vj26ssf53cd4ol5q93.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.realmattersid",
+            "certificate_hash": "9cc759e90578634d7af725b1b6e8e8ac49f53b9e"
+          }
+        },
+        {
+          "client_id": "844404022209-6c7t9111fn7cepeu261j6dv7keja25tj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.realmattersid",
+            "certificate_hash": "d7f855716d51d929d059b69db6087aad3f7ac986"
+          }
+        },
+        {
+          "client_id": "844404022209-2qvjfm5bc4qp8duv6ndobqov39dqq3r2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwZ7noWMCMWI3utAKtOmgwm0_bRUSTZsw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "844404022209-2qvjfm5bc4qp8duv6ndobqov39dqq3r2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
