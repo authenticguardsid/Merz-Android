@@ -106,6 +106,7 @@
                 android:textColor="@color/colorGreyMedium"
                 android:textSize="12sp" />
         </LinearLayout>
+
         <Button
             android:id="@+id/loginBtn"
             android:layout_width="match_parent"
@@ -124,20 +125,51 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/login_layout"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
             android:gravity="center"
             android:padding="5dp"
             android:text="@string/newUser"
             android:textColor="#7c7c7c"
             android:textSize="12sp" />
 
-        <com.google.android.gms.common.SignInButton
+        <Button
             android:id="@+id/sign_in_button"
-            android:layout_below="@+id/createAccount"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-    </LinearLayout>
+            android:layout_height="42dp"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/button_google"
+            android:padding="1dp"
+            android:text="LOG IN WITH GOOGLE"
+            android:textColor="#ffffff"
+            android:textSize="12sp"
+            android:textStyle="bold"/>
 
+        <Button
+            android:id="@+id/login_button"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/button_facebook"
+            android:padding="1dp"
+            android:text="LOG IN WITH FACEBOOK"
+            android:textColor="#ffffff"
+            android:textSize="12sp"
+            android:textStyle="bold"/>
+
+        <!--<com.google.android.gms.common.SignInButton-->
+            <!--android:id="@+id/sign_in_button"-->
+            <!--android:layout_below="@+id/createAccount"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content" />-->
+
+        <!--<com.facebook.login.widget.LoginButton-->
+            <!--android:id="@+id/login_button"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_margin="4dp" />-->
+
+    </LinearLayout>
 
     <include layout="@layout/include_progress_overlay"/>
 

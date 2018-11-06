@@ -47,6 +47,22 @@
           }
         },
         {
+          "client_id": "844404022209-1t29htugjc13hk3kf4dmasnotlhfm1lq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.realmattersid",
+            "certificate_hash": "f93283dbd65702da2bce013eba11b66824bc36c0"
+          }
+        },
+        {
+          "client_id": "844404022209-6g6dtq9s8ovasjfue6nf18o5r3ok2fdk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.realmattersid",
+            "certificate_hash": "ffa8f40dde85d02a0669fcabe31b3fba4118c6ee"
+          }
+        },
+        {
           "client_id": "844404022209-2qvjfm5bc4qp8duv6ndobqov39dqq3r2.apps.googleusercontent.com",
           "client_type": 3
         }
